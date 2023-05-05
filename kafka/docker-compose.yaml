@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    snowflake-to-kafka-cluster:
+        container_name: snowflake-stream-kafka
+        image: landoop/fast-data-dev
+        environment:
+          ADV_HOST: 127.0.0.1
+          RUNTESTS: 0
+        ports:
+          - 2181:2181
+          - 3030:3030 # web-ui
+          - 8082-8083:8082-8083
+          - 9581-9585:9581-9585
+          - 9092:9092
