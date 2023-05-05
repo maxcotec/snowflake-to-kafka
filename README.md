@@ -5,6 +5,9 @@ Sent snowflake table deltas to kafka topic.
 Read full article at
 https://maxcotec.com/learning/snowflake-streams-to-kafka-topic
 
+Watch YouTube tutorial at
+https://youtu.be/nTq64FYCOU0
+
 ## S3 source kafka connector
 
 Configuration:
